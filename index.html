@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>temperatureConverter</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="author" href="rueth.ninja">
+    </head>
+    <body>
+        <h1>temperatureConverter</h1>
+        <div id="wrapper">
+            <label>Temperature:</label>
+                <input type="text" id="tempField" placeholder="enter text to view conversions">
+            <br>
+            <label>Celsius:</label>
+                <input type="radio" name="unitOfMeasure" value="celsius" id="C">
+            <br>
+            <label>Fahrenheit, for the Yanks:</label>
+                <input type="radio" name="unitOfMeasure" valuse="fahrenheit" id="F">
+            <br>
+            <label>
+                <button type="button" id="convert">Convert!</button>
+            </label>
+            <br>
+            <label>
+                <button type="button" id="clear">Start Over!</button>
+            </label>
+        </div>
+
+        <div id="convertedTemp"></div>
+
+
+        <script src="js/converter.js"></script>
+    </body>
+</html>
